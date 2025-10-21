@@ -33,7 +33,7 @@ export default function ContactPage() {
       >
         Téléphone
       </h2>
-      <p className="text-gray-600 leading-relaxed">+221 77 </p>
+      <p className="text-gray-600 leading-relaxed">+221 75 001 12 78 </p>
     </a>
   </div>
 

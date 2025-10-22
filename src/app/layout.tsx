@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header"; // <- on importe le Header
-
+import Footer from "../components/Footer"; // <- on importe le Footer
 // Polices
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +37,8 @@ export default function RootLayout({
       >
         <Header /> {/* Le header s’affiche en haut de toutes les pages */}
 <main className="max-w-6xl mx-auto px-6 pt-30 pb-10">{children}</main>
+<Footer />
+
       </body>
     </html>
   );
